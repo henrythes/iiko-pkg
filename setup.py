@@ -12,7 +12,7 @@ with open(os.path.join(os.path.dirname(__file__), "README.md"), "r", encoding="u
 
 setup(
     name="iiko-pkg",
-    version="0.1.1",
+    version="0.1.2",
     packages=find_packages(),
     install_requires=[
         "requests>=2.25.0",
@@ -35,11 +35,9 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     keywords=[
-        "iiko", "iiko-api", "iiko-services", "iiko-integration",
-        "iiko-python", "iiko-client", "iiko-wrapper", "iiko-automation",
-        "iiko-bot", "iiko-telegram", "iiko-pos", "iiko-restaurant",
-        "iiko-delivery", "python-iiko", "python3-iiko", "rest-api",
-        "api-client", "api-wrapper", "restaurant-automation",
+        "iiko", "iikobiz", "iikocard", "iikodelivery",
+        "iiko-api", "iikocloudapi", "iiko-integration",
+        "iiko-python", "python-iiko", "iiko-example",
         "restaurant-management", "pos-system", "food-delivery",
         "delivery-management", "telegram-bot", "python3",
         "uzbekistan", "tashkent", "restaurant-pos", "cafe-automation",
